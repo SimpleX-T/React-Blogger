@@ -217,5 +217,5 @@ const curYear = new Date().getFullYear();
 document.body.insertAdjacentHTML(
 	"beforeend",
 	`
-    <footer>&copy; <a href="https://github.com/simplex-t">Xcodes tech</a> Tech ${curYear}</footer>`
+    <footer>&copy; <a target="_blank" href="https://github.com/simplex-t">Xcodes tech</a> Tech ${curYear}</footer>`
 );
