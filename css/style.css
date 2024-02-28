@@ -26,11 +26,11 @@ body.dark-mode {
 }
 
 a {
-	color: var(--accent-light);
+	color: var(--text-light);
 }
 
 body.dark-mode a {
-	color: var(--accent-dark);
+	color: var(--text-dark);
 }
 
 ::selection {
@@ -181,5 +181,19 @@ body.dark-mode header .logo svg .st0 {
 
 	& .desc {
 		font-size: 15px;
+	}
+}
+
+footer {
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid rgba(121, 110, 110, 0.5);
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 15px;
+	color: rgba(121, 110, 110, 0.5);
+
+	& a {
+		text-decoration: none;
 	}
 }
